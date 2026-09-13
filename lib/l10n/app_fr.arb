@@ -1,0 +1,161 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Échéances",
+  "settings": "Réglages",
+  "addDocument": "Ajouter un papier",
+  "errorWithMessage": "Erreur : {error}",
+  "@errorWithMessage": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "noDocsForPerson": "Aucun papier pour ce titulaire.",
+  "sectionRenew": "À renouveler",
+  "sectionWatch": "À surveiller",
+  "sectionOk": "À jour",
+  "deleteConfirmTitle": "Supprimer ?",
+  "deleteDocumentBody": "Retirer « {label} » de la liste.",
+  "@deleteDocumentBody": {
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "nextDeadline": "Prochaine échéance",
+  "filterAll": "Tous",
+  "emptyTitle": "Aucun papier pour l’instant",
+  "emptySubtitle": "Ajoutez une date (CNI, passeport, CT, assurance…). Aucune photo n’est demandée.",
+  "statusOk": "OK",
+  "statusSoon": "Bientôt",
+  "statusOverdue": "Dépassé",
+  "expiredYesterday": "expiré hier",
+  "expiredDays": "expiré depuis {count} jours",
+  "@expiredDays": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "expiresToday": "expire aujourd’hui",
+  "inOneDay": "dans 1 jour",
+  "inDays": "dans {count} jours",
+  "@inDays": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "digestTitleRenew": "Papiers à renouveler",
+  "digestTitleToday": "Échéance aujourd’hui",
+  "digestTitleSoon": "Échéance proche",
+  "digestBodyOneOverdue": "{label} est dépassé.",
+  "@digestBodyOneOverdue": {
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "digestBodyOneToday": "{label} expire aujourd’hui.",
+  "@digestBodyOneToday": {
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "digestBodyOneSoon": "{label} expire dans moins de 7 jours.",
+  "@digestBodyOneSoon": {
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "digestPartOneOverdue": "1 papier dépassé",
+  "digestPartManyOverdue": "{count} papiers dépassés",
+  "@digestPartManyOverdue": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "digestPartOneToday": "1 aujourd’hui",
+  "digestPartManyToday": "{count} aujourd’hui",
+  "@digestPartManyToday": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "digestPartOneSoon": "1 dans moins de 7 jours",
+  "digestPartManySoon": "{count} dans moins de 7 jours",
+  "@digestPartManySoon": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "aDocument": "Un papier",
+  "addPaper": "Ajouter un papier",
+  "edit": "Modifier",
+  "documentType": "Type de document",
+  "details": "Détails",
+  "labelField": "Libellé",
+  "holder": "Titulaire",
+  "computeFromStart": "Calculer depuis une date de départ",
+  "startDate": "Date de départ",
+  "expirationDate": "Date d’expiration",
+  "choose": "Choisir",
+  "alertsAndReminders": "Alertes et rappels",
+  "reminderHint": "Notification le matin à 9 h, plus une alerte le jour J.",
+  "notes": "Notes",
+  "notesHint": "Notes (optionnel, pas de numéro de pièce)",
+  "save": "Enregistrer",
+  "chooseHolderAndDate": "Choisissez un titulaire et une date.",
+  "kindCni": "Carte d’identité",
+  "kindPasseport": "Passeport",
+  "kindPermis": "Permis de conduire",
+  "kindCarteVitale": "Carte vitale",
+  "kindCarteGrise": "Carte grise",
+  "kindControleTechnique": "Contrôle technique",
+  "kindAssuranceAuto": "Assurance auto",
+  "kindPersonnalise": "Autre papier",
+  "hintCni": "Saisissez la date d’expiration écrite sur la carte. Durée habituelle : 10 ans après délivrance — vérifiez toujours la carte.",
+  "hintPasseport": "Date d’expiration sur le passeport. Souvent 10 ans (majeur) ou 5 ans (mineur).",
+  "hintPermis": "Saisissez la date figurant sur le titre. Aucune durée n’est inventée.",
+  "hintCarteVitale": "Saisissez la date que vous souhaitez surveiller, si elle est connue.",
+  "hintCarteGrise": "Saisissez la date à surveiller (pas un scan du certificat).",
+  "hintControleTechnique": "Date de validité, ou calcul depuis le dernier contrôle (+2 ans, ou +4 ans si véhicule neuf).",
+  "hintAssuranceAuto": "Date d’échéance, ou + 1 an depuis le début du contrat.",
+  "hintPersonnalise": "Libellé libre et date. Pas de photo, pas de numéro de pièce.",
+  "offset2Years": "+ 2 ans (déjà en circulation)",
+  "offset4Years": "+ 4 ans (véhicule neuf)",
+  "offset1Year": "+ 1 an",
+  "appearance": "Apparence",
+  "themeSystem": "Système",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "language": "Langue",
+  "languageSystem": "Langue du téléphone",
+  "languageFr": "Français",
+  "languageEn": "English",
+  "languageEs": "Español",
+  "languageDe": "Deutsch",
+  "languageAr": "العربية",
+  "alertsAndNotifications": "Alertes et notifications",
+  "householdHolders": "Titulaires du foyer",
+  "addHolder": "Ajouter un titulaire",
+  "iapNote": "Foyer illimité et export PDF sont prévus en achat unique. En v1, tout est ouvert.",
+  "backup": "Sauvegarde",
+  "exportJson": "Exporter JSON",
+  "exportJsonSubtitle": "Fichier local, sans photos.",
+  "importJson": "Importer JSON",
+  "importDone": "Import terminé.",
+  "privacy": "Confidentialité",
+  "privacyText": "Les dates restent sur cet appareil. Pas de compte, pas d’analytics, pas de photo de pièce d’identité. Cette app n’est pas un service administratif. Des publicités Google AdMob peuvent s’afficher ; dans l’Espace économique européen, votre consentement est demandé.",
+  "privacyAdsTitle": "Publicité",
+  "privacyAdsBody": "Une bannière peut apparaître en bas de l’accueil. Un interstitiel n’est proposé qu’après un enregistrement, jamais au lancement ni en quittant l’app.",
+  "manageAdsConsent": "Gérer le consentement publicitaire",
+  "deleteHolderTitle": "Supprimer ce titulaire ?",
+  "deleteHolderBody": "« {name} » et ses papiers seront retirés.",
+  "@deleteHolderBody": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "newHolder": "Nouveau titulaire",
+  "firstName": "Prénom",
+  "ok": "OK",
+  "deviceAlerts": "Alertes de l’appareil",
+  "deviceAlertsSubtitle": "Rappels le matin à 9 h et alerte le jour J.",
+  "notifsDisabled": "Les notifications sont désactivées pour cette application.",
+  "allowAlerts": "Autoriser les alertes",
+  "defaultReminders": "Rappels par défaut",
+  "testNotifSent": "Notification de test envoyée.",
+  "sendTestNotif": "Envoyer une notification test",
+  "notifExpiresToday": "Expire aujourd’hui ({date}).",
+  "@notifExpiresToday": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "notifDueInDays": "Échéance dans {days} jours ({date}).",
+  "@notifDueInDays": {
+    "placeholders": {
+      "days": { "type": "int" },
+      "date": { "type": "String" }
+    }
+  },
+  "testNotifTitle": "Alertes Échéances",
+  "testNotifBody": "Les notifications fonctionnent. Vous serez prévenu avant chaque date.",
+  "widgetNoDeadline": "Aucune échéance",
+  "widgetAddPaper": "Ajoutez un papier",
+  "deleteTooltip": "Supprimer"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingStart="18dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:id="@+id/widget_kicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prochaine échéance"
+        android:textColor="#5C6B6A"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Aucune échéance"
+        android:textColor="#14302E"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="#5C6B6A"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/widget_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="—"
+        android:textColor="#2C6E6A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
