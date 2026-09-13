@@ -1,4 +1,4 @@
-package com.example.papier
+package com.tamandro.echeances
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager

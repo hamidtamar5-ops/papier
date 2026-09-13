@@ -1,4 +1,4 @@
-package com.example.papier
+package com.tamandro.echeances
 
 import io.flutter.embedding.android.FlutterActivity
 

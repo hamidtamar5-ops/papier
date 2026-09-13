@@ -40,7 +40,7 @@ class WidgetSync {
     }
     await HomeWidget.updateWidget(
       androidName: androidName,
-      qualifiedAndroidName: 'com.example.papier.$androidName',
+      qualifiedAndroidName: 'com.tamandro.echeances.$androidName',
     );
   }
 }

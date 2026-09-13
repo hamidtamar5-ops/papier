@@ -2,10 +2,10 @@
 
 Dernière mise à jour : 13 septembre 2026
 
-Application Android **Échéances** (package `com.example.papier`).  
+Application Android **Échéances** (package `com.tamandro.echeances`).  
 Cette application n’est pas un service administratif.
 
-Contact : l’adresse e-mail indiquée sur la fiche Google Play de l’application.
+Contact : [hamidtamar5@gmail.com](mailto:hamidtamar5@gmail.com)
 
 ## Données que vous saisissez
 
@@ -41,7 +41,7 @@ Les données restent sur l’appareil jusqu’à ce que vous les supprimiez dans
 
 ## Vos droits
 
-Vous pouvez consulter et effacer vos papiers dans l’application. Pour une question relative à cette politique, utilisez l’e-mail de la fiche Google Play.
+Vous pouvez consulter et effacer vos papiers dans l’application. Pour une question relative à cette politique, écrivez à [hamidtamar5@gmail.com](mailto:hamidtamar5@gmail.com).
 
 ## Modifications
 
